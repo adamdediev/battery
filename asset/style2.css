@@ -296,6 +296,9 @@ aside {
 }
 
 @media screen and (max-width:901px) {
+  li {
+    font-size: 16px;
+  }
   .cart_background {
     width: 281px;
   }
@@ -494,6 +497,9 @@ aside {
 
 .margin_top_12{
   margin: 14px 9px 0 16px;
+}
+.title_left>span {
+  margin-left: 8px;
 }
 
 .margi_top16{
@@ -711,7 +717,7 @@ form{
 }
 .section_image>img {
   width: 593px;
-  height: 213px;
+  height: 214px;
   margin-left: -515px;
   display: block;
   margin-top: 30px;
@@ -755,7 +761,7 @@ form{
   width: 76px;
 }
 .cart_otop {
-  margin-top: 27px;
+  margin-top: 23px;
 }
 .margi_left_51{
   margin-top: -2px;
@@ -764,8 +770,14 @@ form{
   margin-top: 18px;
 }
 .open_plus >a {
-  margin-top: 343px;
   margin-left: -250px;
+  border-bottom: 2px solid;
+  margin-top: 340px;
+  text-decoration: none;
+
+}
+.in {
+  margin-left: 18px;
 }
 footer {
   margin-top: 89px;
@@ -821,5 +833,18 @@ footer {
  }
  .header_container {
   overflow: hidden;
+}
+.title_left {
+  margin-top: 53px;
+} 
+aside {
+  margin-top: 33px;
+}
+.title_panel_2 {
+  height: 115px;
+}
+.margi_left_100 {
+  margin-top: 6px;
+  margin-left: 26px;
 }
 }
